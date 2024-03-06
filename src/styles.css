@@ -19,12 +19,22 @@ header {
   margin-bottom: 30px;
 }
 
-form {
-  padding: 30px;
+.form-container {
   background-color: rgba(247, 228, 213, 0.863);
-  border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.6;
 }
 
 .instruction {
@@ -57,6 +67,10 @@ form {
   padding: 20px;
   line-height: 24px;
   border-left: 3px solid rgb(189, 177, 177);
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
